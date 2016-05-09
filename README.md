@@ -26,7 +26,7 @@ Maintain offers a command to automate bumping version numbers and releasing your
 $ maintain release patch
 ```
 
-This release command will figured out the type of package, whether it be a
+This release command will figure out the type of package, whether it be a
 Python package, Ruby Gem, NPM package etc and then perform the steps necessary
 to release it. It will bump the version number, create a release commit, tag
 the release and push it to the respective package manager.
